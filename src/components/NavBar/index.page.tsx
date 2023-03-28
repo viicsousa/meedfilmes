@@ -1,4 +1,4 @@
-import Router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 import Lottie from "react-lottie";
 
 import { Container, Logo, Title, NavHome, Subtitle } from "./styles";
