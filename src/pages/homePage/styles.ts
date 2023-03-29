@@ -34,12 +34,12 @@ export const Cards = styled.div`
 
 export const Card = styled.div`
   background-color: red;
-  width:100rem;
-  height: 100rem;
+  width:10rem;
+  height: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  span {
+  div {
     color: blue;
     font-size: 20px;
   }

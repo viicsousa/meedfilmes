@@ -7,7 +7,7 @@ class GetMovies {
    //?==========GET==========?\\
 
   public async GetMoviesServices(): Promise<AxiosResponse<Array<GetImgMoviesResponse>>> {
-    return api.get('/movie/550/images?api_key=74af26e894ff402944b1a7c7bd816119&language=en-US&include_image_language=en,null')
+    return api.get('/movie/popular?api_key=74af26e894ff402944b1a7c7bd816119&language=en-US')
     .then((Response) => {
       return Response;
     })
